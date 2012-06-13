@@ -1,0 +1,424 @@
+@charset "utf-8";
+/**
+ * Doil: A sub-theme of Tendu  - A CSS theme for developers
+ * Made for http://Drupal.org.il
+ * $Id: style_subtheme.css,v 1.1.2.5 2009/01/24 11:00:48 tombigel Exp $
+ * Author: Tom Bigelajzen - http://tombigel.com
+ */
+body{color:#333;background:#fff url(images/bg_body.gif) repeat-x 0 0;padding:0 12px;}
+
+/**
+ * Override page width of base Tendu theme
+ */
+#page{min-width:950px;max-width:1250px;width:990px;}
+
+/**
+ * Override sidebars widths of the base Tendu theme.
+ */
+#sidebar-first{width:150px;}
+#sidebar-second{width:315px;}
+
+.with-sidebar-first #content{margin-left:150px;}/*LTR*/
+.with-sidebar-second #content{margin-right:315px;}/*LTR*/
+
+/*Basic Typography*/
+h1{font-size:1.833em;line-height:1.333em;font-weight:bold;}
+h2{font-size:1.5em;line-height:1.333em;font-weight:bold;}
+h3{font-size:1.333em;line-height:1.333em;font-weight:bold;}
+h4{font-size:1.166em;line-height:1.333em;font-weight:bold;}
+h5{font-size:1.083em;line-height:1.333em;font-weight:bold;}
+h6{font-size:1em;line-height:1.333em;font-weight:bold;}
+p{padding-bottom:.5em;}
+.meta{font-size:1em;padding-bottom:.5em;color:#666;}
+
+/*Tables*/
+table{margin-top:10px;}
+tr.even{background:#fcfdfe;}
+td,
+th{padding:.2em .5em;}
+
+/*Lists*/
+dt{font-style:italic;}
+dd{padding:.5em;}
+ul,
+ol{padding-left:1em;}/*LTR*/
+ul li{margin-left:1.5em;list-style:disc;line-height:1.5em;}/*LTR*/
+ol li{margin-left:1.5em;list-style:decimal;line-height:1.5em;}/*LTR*/
+.item-list ul li{padding:3px 0;}
+ul.links li{margin:0;}
+
+/* Form Elements  */
+fieldset{padding:.5em .8em;margin:0 0 1em;border:1px solid #dddff0;background:#fdfeff;}
+html.js fieldset.collapsed{background:none;}
+legend{font-weight:bold;font-size:1.166em;padding:0 .3em}
+input, select, textarea{font-family:Arial, Helvetica, sans-serif;font-weight:normal;line-height:1em;font-size:1em;}
+textarea{line-height:1.2em;}
+button{font-family:Arial, Helvetica, sans-serif;font-weight:bold;line-height:1em;font-size:13px}
+button{cursor:pointer;}
+.form-radio,
+.form-checkbox{vertical-align:middle;}/* TODO: Check how this works site wide */
+
+/* Links */
+a{color:#0073bb;text-decoration:none;font-weight:bold;}
+a:visited{color:#1f7bb3;}
+a:hover, a:focus{text-decoration:underline;}
+a:active,
+a.active:hover,
+a.active:visited{color:#264463;}
+
+/* Header and Navagation */
+#header{position:relative;}
+#header-content{background:#1984c7 url(images/bg_header.gif) repeat-x 0 100%;color:#fff;border:solid #0c71ae;border-width: 0 1px 1px 1px;}
+
+#header a{color:#fff;}
+#header a:visited{color:#fafafa;}
+
+/*Header Blocks*/
+#header-blocks{float:right;width:370px;padding:12px;}/*LTR*/
+#header-blocks .block{margin-bottom:10px;}
+#header-blocks .block-last{margin-bottom:0;}
+/*Theme Language Switcher in header blocks*/
+#header-blocks #language-switcher{margin-bottom:10px;}
+#header-blocks #language-switcher ul{text-align:right;padding-left:0;overflow:hidden;height:1%;font-size:.916em;}/*LTR*/
+#header-blocks #language-switcher li{margin:0;padding:0 .5em;list-style:none;display:inline;}
+#header-blocks #language-switcher a{font-weight:bold;}
+/*Theme Search Box in header blocks*/
+#header-blocks #search-box{margin-bottom:10px;}
+#header-blocks #search-box label{display:none}
+#header-blocks #search-box input{vertical-align:middle}
+#header-blocks #search-box .form-text{width:290px;border:1px solid #7fafcc;font-size:1.333em;padding:3px;}
+#header-blocks #search-box .form-submit{font-size:1.2em;height:1.95em;width:69px;padding:3px 0;border:1px solid #495f6d;background:#afafaf url(images/bg_btn_search.gif) repeat-x 0 0;}
+#header-blocks #search-box .container-inline{white-space:nowrap;}
+
+/*Site details*/
+#site-details{float:left;padding:12px}/*LTR*/
+#site-logo{float:left;padding:5px 0 0 10px}/*LTR*/ /*IE6*/
+#site-name{font-size:2.5em;line-height:1.333em;font-weight:bold;}
+#site-slogan{font-size:1.5em;line-height:1.333em;}
+
+/*Mission*/
+#mission{clear:left;margin-right:395px;padding:0 12px 12px 24px;font-size:1.333em;line-height:normal}/*LTR*/
+#mission a, 
+#mission a:hover, 
+#mission a:visited{font-weight:bold;color:#fff;text-decoration:underline;}
+
+/*Navagation (Primary links)*/
+#main-nav{position:relative;top: -1px;}
+#main-nav ul.menu{overflow:hidden;padding:0;}
+#main-nav ul.menu li{float:left;overflow:hidden;display:inline;padding:0;margin-left:1em;list-style:none;}/*LTR*/
+#main-nav ul.menu li a{display:block;height:1.7em;float:left;color:#23243b;padding:.3em 1em 0;font-weight:bold;font-size:1.083em;}/*LTR*/
+#main-nav ul.menu li a:visited{color:#23243b;}
+#main-nav ul.menu li a.active,
+#main-nav ul.menu li a.active:visited{color:#fff;background:#64b8ea url(images/bg_tab_active.gif) repeat-x 0 0;border:solid #0c71ae;border-width:0 1px 1px 1px;}
+
+/* Front page header overrides */
+.front #header{padding-top:2.3em;}
+.front #header-content{background-position:0 0;background-color:#2898da;border-width:1px;}
+.front #main-nav{position:absolute;top:.3em;padding-top:1px;}
+.front #main-nav ul li.first{margin:0;}
+.front #main-nav ul.menu li a{height:1.6em;padding-top:.2em;}
+.front #main-nav ul.menu li a.active,
+.front #main-nav ul.menu li a.active:visited{background:#1a85c8 url(images/bg_tab_home_active.gif) repeat-x 0 0;border-width:1px 1px 0 1px;}
+
+/* Page info */
+.breadcrumb{padding:0;}
+#content-title{margin-bottom:0;margin-top:0;}
+#content-title .title{padding:0 12px}
+#content-info{padding:6px 12px;margin-bottom:0;}
+div.messages{padding:12px;margin-bottom:10px;}
+.status{background:#f0fdf0;border:1px solid #e0ede0;}
+
+/* Blocks in sidebars */
+.sidebar-region .block{margin:10px 0;padding:6px;}
+.sidebar-region #nav a{font-weight:bold;font-size:1.083em;}
+.sidebar-region .block-first{margin-top:0;}
+
+/* Blocks nodes and 
+views in content areas. */
+.extra-region .block,
+.content-region div.block,/* Using "div.block" because /admin/build/blocks uses td.block */
+.content-region .node,
+.content-region .node-form,
+.content-region .view,
+.content-region .profile,
+.content-region .node-type-list,
+.page-admin #default-content{padding:12px;margin-bottom:10px;margin-top:0;}
+
+.node{padding-bottom:.5em;border-bottom:1px solid #e4e4e4;}
+.page-type-node .node{padding-bottom:0;border-bottom:none;}
+
+#content{margin-top:10px;}
+#before-content{margin-top:10px;}
+#before-content .block-last{margin-bottom:0;}
+
+.block-header{width:100%;overflow:hidden;}
+.block-header h2{float:right;}
+.block-header .links{display:block;text-align:left;font-size:1.5em;}
+/* Style blocks with Block Class (or Block Theme):*/
+.block-green-light {padding:12px 0 0 0 !important;border:1px solid #bfd3bd;background:#ecfbeb url(images/bg_green_light_top.gif) repeat-x 0 0 !important; overflow:hidden}
+.block-green-light h2{color:#000;padding:0 12px;}
+.block-green-light .content{color:#333;padding:12px;background: url(images/bg_green_light_bottom.gif) repeat-x 0 100%;}
+
+/*Tweak green block in user blocks*/
+#user-blocks .block-green-light{border-color:#697668;}
+#user-blocks .block-green-light h2{color:#58943f;}
+#user-blocks .block-green-light a{color:#0073bb;text-decoration:none;}
+#user-blocks .block-green-light a:hover{text-decoration:underline;}
+#user-blocks .block-green-light a:visited{color:#1f7bb3;}
+
+.block-blue-light {padding:12px 0 0 0 !important;border:1px solid #b8d4e4;background:#d5ebf8 url(images/bg_blue_light_top.gif) repeat-x 0 0 !important; overflow:hidden}
+.block-blue-light h2{color:#000;padding:0 12px;}
+.block-blue-light .content{color:#333;padding:12px;background: url(images/bg_blue_light_bottom.gif) repeat-x 0 100%}
+
+/* Sticky nodes on front page */
+.front .sticky{overflow:hidden;padding:0;border:1px solid #deecf5;background:#f1f7fb url(images/bg_sticky_top.gif) repeat-x 0 0;}
+.front .sticky .node-bottom{background:url(images/bg_sticky_bottom.gif) repeat-x 0 100%;margin:0;padding:0 12px 12px;}
+.front .sticky h2{padding:12px 12px 0;}
+.front .sticky .content,
+.front .sticky .meta{padding:0 12px;}
+
+/* Remove redundent styling from blocks in blocks, nodes and views */
+.content-region .view div.block,
+.content-region .node div.block,
+div.block div.block{padding:0;background:0;}
+
+/* Forums */
+#forum table{width:95%;}
+
+/* Tabs */
+div.tabs{background:#1984c7 url(images/bg_header.gif) repeat-x 0 0;color:#fff;border:1px solid #0c71ae;padding:.5em 1em;}
+ul.primary {border:none;margin:6px 0;}
+ul.primary li{margin:0;line-height:normal;white-space:nowrap;}
+ul.primary li a,
+ul.primary li a:visited {background:none;border:none;padding:6px .6em;font-weight:bold;font-size:1.083em;color:#fff;}/*LTR*/
+ul.primary li a:hover {text-decoration:underline;background:none;}
+ul.primary li.active a,
+ul.primary li.active a:hover,
+ul.primary li.active a:visited{text-decoration:none;font-weight:bold;color:#0c71ae;background:#fff;border:none;}
+
+ul.secondary {border:none;padding:.5em 0;background:#fff;margin:-4px 0 0 0;}
+ul.secondary li{margin:0;line-height:normal;padding:0;border:none;white-space:nowrap;}
+ul.secondary li a,
+ul.secondary li a:visited {background:none;border:none;padding:0 .6em;color:#0073bb}
+ul.secondary li a:hover {text-decoration:underline;background:none;}
+ul.secondary li.active a,
+ul.secondary li.active a:hover,
+ul.secondary li.active a:visited{text-decoration:none;font-weight:bold;color:#206291;background:none;border:none;}
+
+/* Footer */
+#footer{font-size:.916em;border-top:1px solid #0074bb;}
+#footer-message,
+#footer-blocks{padding:6px 12px}
+#footer p{padding:0;}
+#footer ul li { list-style:none }
+
+/*Doil Sprint*********************************************************************/
+/* Increase Footer size */
+#footer{height:10em}
+.footer-spacer{padding-bottom:10em}
+#footer-message, #footer-blocks{float:right; margin-left:2em;clear:left}
+
+/*Faceted search block*/
+/*
+.faceted-search-more{display:none;}
+#content-top #edit-keywords-wrapper .form-text { border:1px solid #7FAFCC; font-size:1.333em; padding:3px; width:290px; }
+#content-top #edit-keywords-wrapper input { vertical-align:middle; -moz-border-radius-bottomleft:4px; -moz-border-radius-bottomright:4px; -moz-border-radius-topleft:4px; -moz-border-radius-topright:4px; }
+#content-top #edit-keywords-wrapper .form-submit{font-size:1.2em;height:1.95em;width:69px;padding:3px 0;border:1px solid #495f6d;background:#afafaf url(images/bg_btn_search.gif) repeat-x 0 0;}
+
+*/
+/*User block*/
+#sidebar-second .block .picture { display:inline }
+
+/*Selected Sites*/
+#before-content{padding:10px 0 0;border-bottom:1px solid #999;}
+#before-content .block{padding:0}
+#before-content .view{padding:0 10px;}
+#before-content h2{padding:0 10px 8px;}
+#before-content .block-promoted-israeli .view-content{padding-left:15px;}
+#before-content .view-footer{text-align:left;width:100%;padding-top:8px;}
+#before-content .view-footer a{font-size:1.25em;}
+#before-content a{font-weight:bold}
+.block-promoted-israeli .views-field-field-screenshots-fid img,
+.block-promoted-world .views-field-field-screenshots-fid img{float:right;width:55px;height:55px;padding:1px;border:1px solid #666;margin-left:7px;}
+.block-promoted-israeli .views-row-first .views-field-field-screenshots-fid img{width:115px;height:115px;}
+.block-promoted-israeli{width:70%;float:right;}
+.block-promoted-world{margin-right:70%}
+.block-promoted-israeli .views-row-odd,
+.block-promoted-israeli .views-row-even{margin-right:50%;overflow:hidden;margin-bottom:10px;min-height:59px;}
+.block-promoted-israeli .views-row-first{float:right;margin-right:0;width:50%;min-height:119px;font-size:1.166em;font-weight:bold}
+.block-promoted-world .views-row-odd,
+.block-promoted-world .views-row-even{width:100%;overflow:hidden;margin-bottom:10px;min-height:59px;}
+
+/*Node*/
+.meta-next-to-title{float:left;padding:10px 3px;}
+.node-bottom{text-align:left;float:left;padding:.4em 0;}
+.node .terms{display:block;padding:.4em 0;}
+
+/*Sidebar agreggation */
+.view-doil-latest-content .views-field-name a{font-weight:normal;color:#333;}
+
+/*welcome block*/
+#block-block-23 h2{text-align:center;font-size:1.666em}
+#block-block-23 #drupal_download{display:block;width:171px;padding-right:25px;height:45px;line-height:43px;white-space:nowrap;font-size:1.25em;color:#fff;text-align:center;background:url(images/btn_download.gif) no-repeat  0 0;margin:0 auto;}
+#block-block-23 #more_drupal_versions{font-size:.83em;text-align:center;display:block;}
+
+.magic_tabs {width:100%; overflow:hidden;}
+.magic_tabs .tabs{width:100%;overflow:hidden;padding:0;margin:0;}
+.magic_tabs .tabs li{list-style-type:none;margin:0;float:right;}
+#user-blocks .magic_tabs .tabs li a{padding:4px 8px;display:block;display:inline-block;color:#063049}
+#user-blocks .magic_tabs .tabs li a.selected{border:1px solid #C1CFC0;background:#fff;}
+.magic_tabs table, 
+.magic_tabs thead,
+.magic_tabs tbody,
+.magic_tabs th,
+.magic_tabs tr,
+.magic_tabs td{border:none;background:none;}
+.magic_tabs{}
+.magic_tabs{}
+
+/*Comments*/
+
+.comment-published {margin:6px 0;padding:12px 0 0 0 !important;border:1px solid #b8d4e4;background:#d5ebf8 url(images/bg_blue_light_top.gif) repeat-x 0 0;overflow:hidden}
+.comment-published h3{color:#000;padding:0 12px;}
+.comment-published .picture{padding:0 12px;float:left}
+.comment-published .submitted{color:#666;padding:0 12px;}
+.comment-published .content{color:#333;padding:12px 12px 6px;background: url(images/bg_blue_light_bottom.gif) repeat-x 0 100%}
+.comment blockquote{padding:.5em;margin:.5em 2em .5em .5em;font-style:italic;color:#555;}
+/*********************************************************************************/
+/* Tweak Admin panel */
+div.admin .right,
+div.admin .left{margin:0;}
+
+/* Tweak Views Admin panel */
+a.views-button-remove{top:0;}
+#edit-views-apply{margin-top:1.3em;}
+
+/* Tweak Blocks Admin panel */
+table#blocks{width:100%;}
+#blocks td{vertical-align:middle;}
+#blocks .block{padding:0;margin:0;}
+
+/*Tweak Update Admin panel*/
+.version-status .icon img{vertical-align:middle}
+
+/**
+ * Some fun with rounded corners.
+ * Mozilla and Webkit support the "border-radius" property, so why not take advantage of it?
+ * 
+ * "-moz-border-radius" is for Mozilla browsers
+ * "-webkit-border--top/bottom-left/right-radius" is for Webkit browsers 
+ * "border-radius" is for a time where this property will get into the standard implementation (Has no effect in current versions)
+ */
+.block .content,
+.sticky ul.links,
+#header-content,
+#header{-moz-border-radius:0 0 8px 8px;-webkit-border-bottom-left-radius: 8px;-webkit-border-bottom-right-radius: 8px;border-radius:0 0 8px 8px;}
+
+.magic_tabs .tabs a,
+div.tabs,
+ul.secondary,
+ul.primary li.active a,
+#search-box input,
+div.messages,
+fieldset{-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;}
+
+.comment-published,
+#main-nav,
+.front #header-content,
+.sticky,
+#content-area,
+#content-title,
+#content-info,
+#default-content,
+#mission,
+#header-blocks .block,
+.sidebar-region .block,
+.extra-region   .block,
+.content-region .block,
+.content-region .node,
+.content-region .node-form,
+.content-region .view,
+.content-region .profile{-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;}
+
+.front #main-nav ul.menu li a.active{-moz-border-radius:4px 4px 0 0;-webkit-border-top-left-radius:4px;-webkit-border-top-right-radius:4px;-webkit-border-bottom-left-radius: 0;-webkit-border-bottom-right-radius: 0;border-radius:4px 4px 0 0;}
+#main-nav ul.menu li a.active{-moz-border-radius:0 0 4px 4px;-webkit-border-bottom-left-radius: 4px;-webkit-border-bottom-right-radius: 4px;border-radius:0 0 4px 4px;}
+
+/*Resets*/
+.front #header-content,
+ul.secondary{-moz-border-radius-topleft:0;-webkit-border-top-left-radius:0;border-top-left-radius:0;}
+#blocks .block{-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;background:none;}
+
+/* Image thumbnails */
+.field-field-screenshots .field-item {margin:1em; float:right;}
+.node-bottom{clear:both}
+
+
+/*
+service block
+*/
+#block-quicktabs-1 tbody tr.odd, #block-quicktabs-1 tbody tr.even{
+	background:0;
+	border-bottom:none;
+	padding:0.1em 0.6em;
+}
+
+#block-quicktabs-1 ul.quicktabs_tabs li.active{ 
+	padding:6px; 
+	background:#ECFBEB; 
+	-moz-border-radius:4px 4px 0 0;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	border-radius:4px 4px 0 0;
+	border-color:#697668;
+	border-left:1px solid;
+	border-right:1px solid;
+	border-top:1px solid;
+
+	}
+form#custom-content-form div#edit-type-wrapper label{float:right; margin:0 0 0 12px;}
+form#custom-content-form div#edit-type-wrapper{ float:right;}	
+form#custom-content-form input.form-submit{ margin:10px 10px 0 0;}		
+	
+	
+#block-quicktabs-1 ul.quicktabs_tabs li.active a{color:#000;}
+
+
+
+.view-doil-israeli-promoted-websites .views-field-body p{padding-bottom:0;}
+
+
+/*
+overrides
+*/
+#site-name{font-size:4em;line-height:1.333em;font-weight:normal;}
+#site-name a{font-weight:normal;}
+#site-slogan{font-size:1.5em;line-height:1.333em;}
+.block-promoted-world h2, .block-promoted-israeli h2{font-size:1.8em;
+font-weight:normal;}
+span.feed-icons{ margin:-2px 12px;}
+.node div.content{ margin:12px 0 0 0;}
+
+
+/*
+user block favorite tab
+*/
+.view-favorites {
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border-color:#697668;
+	background:#ECFBEB url(images/bg_green_light_top.gif) repeat-x scroll 0 0 !important;
+	border:1px solid;
+	overflow:hidden;
+	padding:12px 0 0 !important;
+}
+.view-favorites .view-content{
+	padding:12px;
+}
+.view-favorites .view-content a,
+.view-favorites .view-content a:link,
+.view-favorites .view-content a:visited,
+.view-favorites .view-content a:focus{
+	color:#0073BB !important;
+}
+.node-bottom ul.links li{float:right;}

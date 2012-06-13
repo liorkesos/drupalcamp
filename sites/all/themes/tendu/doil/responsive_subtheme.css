@@ -1,0 +1,112 @@
+@charset "utf-8";
+/**
+ * Doil: A sub-theme of Tendu - A CSS theme for developers
+ * Made for Drupal.org.il
+ * Incremental CSS overrides for RTL sites
+ * $Id: style_subtheme-rtl.css,v 1.1.2.3 2009/01/19 13:11:09 tombigel Exp $
+ * Author: Tom Bigelajzen - http://tombigel.com
+ */
+
+
+/* Reset tendu's layout to create a responsive design, sorry Tom */
+#page {min-width: 0; width: auto;}
+#content,
+.with-sidebar-first #content,
+.with-sidebar-second #content {margin:0; padding: 0;}
+
+/* Holy grail layout so we can have some responsive capabilities */
+#main {
+  margin-top: 15px;
+  width: auto;
+}
+.with-sidebar-first #main {
+  padding-right: 160px;
+  width: auto;
+}
+.with-sidebar-second #main {
+  padding-left: 325px;
+  width: auto;
+}
+
+#main #sidebar-first,
+#main #content,
+#main #sidebar-second {
+  position: relative;
+  float: right;
+}
+#content {
+  width: 100%;
+}
+#sidebar-second {
+  width: 315px;
+  margin-left: -325px;
+  padding-right: 10px;
+}
+#sidebar-first {
+  width: 150px;
+  left: 160px;
+  margin-right: -100%;
+  padding-left: 10px;
+}
+#footer {
+  clear: both;
+}
+#header-content {
+  padding: 12px;
+}
+#header-blocks,
+#site-details {
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: 12px;
+}
+#header-blocks #search-box .form-text {
+  max-width: 70%;
+}
+#main-nav select {
+  margin-top: 15px;
+  width: 100%;
+  padding: 5px;
+}
+
+/* Some Responsive Styling */
+@media (max-width: 800px) {
+  #admin-menu {
+    display: none;
+  }
+  #page {
+    font-size: 1em;
+    line-height: 1.44em;
+  }
+  .with-sidebar-first #main,
+  .with-sidebar-second #main {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  #sidebar-first {
+    left: 0;
+    margin-right: 0;
+  }
+  #sidebar-second {
+    margin-left: 0;
+  }
+  #header-blocks {
+    float: none;
+    clear: both;
+  }
+  #mission {
+    margin-left: 0;
+  }
+  #sidebar-first, 
+  #sidebar-second {
+    max-width: 100%;
+    padding: 0;
+  }
+
+}
+
+@media (max-width: 640px) {
+  #admin-menu {
+    display: none;
+  }
+}
