@@ -854,7 +854,7 @@ a.drupalizing:link, a.drupalizing:active, a.drupalizing:visited, a.drupalizing:h
 .roll span {
     display: block;
     position: relative;
-    padding: 5px 10px;
+    padding: 0 10px;
 
     -webkit-transition: all 400ms ease;
        -moz-transition: all 400ms ease;
@@ -878,7 +878,7 @@ a.drupalizing:link, a.drupalizing:active, a.drupalizing:visited, a.drupalizing:h
     position: absolute;
     left: 0;
     top: 0;
-    padding: 5px 10px;
+    padding: 0 10px;
 
     color: #fff;
     background: #0D0F13;

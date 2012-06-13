@@ -4,6 +4,8 @@ version = VERSION
 core = 6.x
 engine = phptemplate
 
+scripts[] = js/script.js
+
 stylesheets[all][] = style.css
 stylesheets[all][] = supertable.css
 

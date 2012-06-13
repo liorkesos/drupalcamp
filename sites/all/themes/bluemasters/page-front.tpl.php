@@ -11,11 +11,7 @@
 <?php print $styles ?>
 <?php print $scripts; ?>
 
-<script src="misc/jquery.js" type="text/javascript"></script>
 <script src="<?php print drupal_get_path('theme', 'bluemasters') . '/js/bluemasters.js'?>" type="text/javascript"></script>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.js" type="text/javascript"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/swfobject/2.1/swfobject.js" type="text/javascript"></script>
 
 </head>
 <body>
