@@ -127,7 +127,7 @@ div.links {
 }
 
 #navigation li.expanded a:hover, #navigation li.expanded:hover a {
-  background: transparent url(images/menu_hover_pull.png) no-repeat left;
+  /*background: transparent url(images/menu_hover_pull.png) no-repeat left;*/
 }
 
 #navigation ul.menu {
@@ -138,20 +138,13 @@ div.links {
   float: right;
 }
 
-#navigation ul.menu li ul {
-  right: -999em;
-  right: auto;
-}
 
 #navigation ul.menu li:hover ul,
 #navigation ul.menu li.hover ul {
-  right: auto;
   text-align:right;
-  right: auto;
 }
 
 #navigation ul.menu li ul li {
-  */
   float: right;
   text-align:right;
 }
@@ -159,7 +152,7 @@ div.links {
 #navigation ul.menu li ul li a,
 #navigation ul.menu li ul li a:link,
 #navigation ul.menu li ul li a:visited {
-  padding:0 22px 0 5px;
+  padding:0;
   text-align:right;
 }
 

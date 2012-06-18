@@ -288,7 +288,7 @@ div.links {float:right;}
 	font-weight:bold;
 	}*/
 
-#navigation li.expanded a:hover, #navigation li.expanded:hover a{ background: transparent url(images/menu_hover_pull.png) no-repeat right; }
+/*#navigation li.expanded a:hover, #navigation li.expanded:hover a{ background: transparent url(images/menu_hover_pull.png) no-repeat right; }*/
 
 #navigation ul.menu { 
 	margin:0px; 
@@ -299,23 +299,17 @@ div.links {float:right;}
   display: block;
   float: left;
   border:none;
-  margin: 0 0 0 0 ;
+  margin: 0;
 }
 
 #navigation ul.menu li ul {
-  left: -999em;
-  margin: 0;
-  padding: 0;
   position: absolute;
-  width: 196px;
-  z-index: 12;
+  padding: 10px 15px 0 15px; 
 }
 
 #navigation ul.menu li:hover ul,
 #navigation ul.menu li.hover ul {
-  display: block;
-  left: auto;
-  text-align:left;
+
 }
   
 #navigation ul.menu li ul li {
@@ -326,31 +320,16 @@ div.links {float:right;}
   text-align:left;
 }
 
-#navigation ul.menu li ul li.first { background: transparent url(images/menu-pulldownb-bg-top.png) no-repeat top; margin:0; padding:6px 0 0 0;}
-
-#navigation ul.menu li ul li.last { background: transparent url(images/menu-pulldown-bg-bottom.png) no-repeat bottom; padding:0 0 6px 0;}
-
-
-#navigation ul.menu li ul li.last {
-  border-bottom: none;
-}
-
 #navigation ul.menu li ul li a,
 #navigation ul.menu li ul li a:link,
 #navigation ul.menu li ul li a:visited {
-  text-decoration: none;   background:#74171e;
-  padding:0 5px 0 22px;
+  text-decoration: none;
   display: block;
-  width: 159px;
-	text-align:left;
-	font-weight:bold;
-	font-size:15px;
+	text-align:right;
+	font-size:14px;
+  color: #979FB3;
 }
 
-#navigation ul.menu li ul li a:hover {
-  display: block;
-  text-decoration: none;
-}
 
 /*
  * /PRIMARY MENU WITH DROPDOWNS */
@@ -806,6 +785,11 @@ form#contact_form button {
     height: 45px;
     margin: 0;
     width: 120px;
+}
+
+/* Admin menu */
+#admin-menu {
+  font-size: 14px;
 }
 
 /*

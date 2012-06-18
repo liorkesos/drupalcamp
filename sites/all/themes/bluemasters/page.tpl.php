@@ -108,12 +108,7 @@
 	          <?php print theme('links', $secondary_links, array('class' => 'links secondary-links')) ?>
 	        <?php endif; ?>      	
     	</div>
-    	<div class="credits-container" style="clear:both; padding-top:12px;">Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com">More than Themes</a></div>         	
-    </div>
-    <div class="credits-container clearfix">
-        <a title="Brought To You By: www.SmashingMagazine.com" class="smashing" href="http://www.smashingmagazine.com" target="_blank">Brought to you By: www.SmashingMagazine.com</a>
-        <a title="Drupalizing" class="drupalizing" href="http://www.drupalizing.com" target="_blank">Drupalizing</a> 
-    </div>     
+    </div> 
 </div>
     
 <?php print $closure ?>
