@@ -93,7 +93,7 @@ html[xmlns] .clearfix { display: block; }
   color: #fff;
 }
 
-#navigation { float:right; width:525px; margin: 21px 0 0 15px;  display:block; overflow: hidden;}
+#navigation { float:right; width:525px; margin: 19px 0 0 15px;  display:block; overflow: hidden;}
 
 #banner{ border:10px solid #ffffff;  height:320px;}
 
@@ -322,7 +322,7 @@ div.links {float:right;}
 
 #navigation ul.menu li ul {
   position: absolute;
-  padding: 0 15px 0 15px; 
+  padding: 2px 15px 0 15px; 
 }
 
 #navigation ul.menu li:hover ul,
