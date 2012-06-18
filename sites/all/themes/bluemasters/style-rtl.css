@@ -385,3 +385,7 @@ a.drupalizing:link, a.drupalizing:active, a.drupalizing:visited, a.drupalizing:h
 #main-area-inside {
   background-image: url(images/main-area-bg-rtl.png);
 }
+
+.active-trail .roll span{
+color: #fff;
+}
