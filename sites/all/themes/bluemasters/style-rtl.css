@@ -1,0 +1,394 @@
+#right .block h2 {
+  padding:10px 45px 10px 10px;
+}
+
+/*.node .content */
+
+#header-top-inside-left {
+  float:right;
+  text-align:right;
+}
+
+#header-top-inside-left-content {
+  padding-right: 80px;
+  padding-left: 0;
+}
+
+#header-top-inside-left-feed {
+  float:right;
+}
+
+#header-top-inside-right {
+  float:left;
+  text-align:left;
+  margin-left: -27px;
+  margin-right: auto;
+}
+
+#wrapper {
+  text-align:right;
+}
+
+#logo {
+  float:right;
+  text-align: right;
+}
+
+#navigation {
+  float:left;
+  margin:10px 40px 0 0;
+}
+
+.home-block {
+  float:right;
+}
+
+/*
+ * Home block text sized
+ */
+
+#home-blocks-area h2 {
+  padding:10px 49px 0 0;
+}
+
+#footer-inside {
+  text-align:right;
+}
+
+#footer-bottom-inside {
+  text-align:right;
+}
+
+#main.inside {
+  float:right;
+}
+
+#right {
+  float:left;
+}
+
+/* 
+ * Default typography 
+ * please DO NOT modify following rules. 
+ */
+/*  --------------------------------------------------------------------- */
+
+/*  --------------------------------------------------------------------- */
+ul, ol {
+  margin:15px 40px 15px 0;
+}
+
+ul ul, ul ul ul, ol ol, ol ol ol {
+  margin-right:20px;
+  margin-left: auto;
+}
+
+/*  -------------------------------------------------------------------- */
+
+dd {
+  margin-right:30px;
+  margin-left: auto;
+}
+
+/*  --------------------------------------------------------------------- */
+
+legend {
+  margin-right:10px;
+  margin-left: auto;
+}
+
+div.terms {
+  background: url(images/tag.png) no-repeat right;
+  padding-right: 28px;
+  float: right;
+  padding-left: 0;
+}
+
+div.terms ul.links li {
+  padding-right: 1px;
+  padding-left: 1px;
+}
+
+div.links {
+  float:left;
+}
+
+/*
+ * /Default typography */
+
+/************************************/
+/* PRIMARY MENU WITH DROPDOWNS      */
+/* - used with menu_tree theming of */
+/* $primary_links in page.tpl.php   */
+/************************************/
+
+#navigation ul li {
+  float:right;
+}
+
+#navigation li.expanded a:hover, #navigation li.expanded:hover a {
+  background: transparent url(images/menu_hover_pull.png) no-repeat left;
+}
+
+#navigation ul.menu {
+  float:left;
+}
+
+#navigation ul.menu li {
+  float: right;
+}
+
+#navigation ul.menu li ul {
+  right: -999em;
+  right: auto;
+}
+
+#navigation ul.menu li:hover ul,
+#navigation ul.menu li.hover ul {
+  right: auto;
+  text-align:right;
+  right: auto;
+}
+
+#navigation ul.menu li ul li {
+  */
+  float: right;
+  text-align:right;
+}
+
+#navigation ul.menu li ul li a,
+#navigation ul.menu li ul li a:link,
+#navigation ul.menu li ul li a:visited {
+  padding:0 22px 0 5px;
+  text-align:right;
+}
+
+/*
+ * /PRIMARY MENU WITH DROPDOWNS */
+ 
+li.node_read_more {
+  float:left;
+  margin-right: 5px;
+  margin-left: auto;
+}
+
+li.comment_add {
+  float:right;
+  margin-left: 5px;
+  margin-right: auto;
+}
+
+.content blockquote {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#footer h2 {
+  padding-right:0px;
+  padding-left: 0;
+}
+
+#footer ul {
+  padding-right: 0px;
+  padding-left: 0;
+}
+
+#footer-left {
+  float:right;
+  */
+  padding-right: 14px;
+}
+
+#footer-left-1 {
+  float:right;
+}
+
+#footer-left-2 {
+  float:right;
+}
+
+#footer-center {
+  float:right;
+  */
+  padding-right: 14px;
+}
+
+#footer-right {
+  float:right;
+  */
+  padding-right: 14px;
+}
+
+.footer-copyright {
+  float: right;
+}
+
+.footer-links {
+  float: left;
+}
+
+/*
+ * Front Page Slider 
+ */
+ 
+/*--Paging Styles--*/
+/*--Main Container--*/
+.main_view {
+  float: right;
+}
+
+/*--Window/Masking Styles--*/
+
+.image_reel {
+  right: 0;
+  right: auto;
+}
+
+.image_reel img {
+  float: right;
+}
+
+/*--Paging Styles--*/
+
+.desc {
+  right: 0;
+  right: auto;
+}
+
+/*
+ ** /Front Page Slider */
+ 
+#home-block-2 .more-link a {
+  float:right;
+}
+
+/*
+ * Site Navigation Menu
+ */
+#block-menu-menu-site-navigation li a {
+  background: url("images/menu-left-bg.png") no-repeat scroll 230px center #E0E3EB;
+  padding: 10px 10px 10px 20px;
+}
+
+#block-menu-menu-site-navigation ul.menu {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+/*
+ ** /site navigation menu */
+/*
+ * Search form
+ */
+
+#edit-search-theme-form-1 {
+  padding-right: 8px;
+  padding-left: 0;
+}
+
+#search-theme-form .form-submit {
+  right: -33px;
+  right: auto;
+}
+
+/*
+ ** /search form */
+
+#block-menu-menu-content li a, #block-menu-menu-development li a {
+  padding:10px 10px 10px 20px;
+  background: #e0e3eb url(images/menu-left-bg.png) no-repeat 230px center;
+}
+
+#block-menu-menu-content li:hover a, #block-menu-menu-development li:hover a {
+  background: #d0d4de url(images/menu-left-bg-active.png) no-repeat 230px center;
+  padding:10px 10px 10px 20px;
+}
+
+/*
+ * Get in Touch block content
+ */
+ 
+.ico {
+  float: right;
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.detail {
+  float: right;
+}
+
+/* this block need to have shorten height */
+
+/*
+ * /get in touch block */
+/*
+ * social links block
+ */
+
+.ico2 {
+  padding-right: 3px;
+  padding-left: 0;
+}
+
+.ico2 img {
+  margin-left: 5px;
+  margin-right: auto;
+}
+
+/*
+ * /social links block */
+/*
+ * footer gallery block
+ */
+
+.footer-gallery-block img {
+  float: right;
+  margin-left: 9px;
+  margin-right: auto;
+}
+
+/*
+ * /footer gallery block */
+/*
+ * twitter block 
+ */
+
+/*
+ ** /twitter block */
+/*
+ * contact form
+ */
+
+form#commentform textarea, form#contact_form textarea {
+  margin: 0 10px 10px 0;
+}
+
+form#contact_form textarea {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+#map_wrap {
+  float: left;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+form#commentform input#submit, form#contact_form button {
+  float: left;
+}
+
+/*
+ * Credits
+ */
+
+a.smashing:link, a.smashing:active, a.smashing:visited, a.smashing:hover,  
+a.drupalizing:link, a.drupalizing:active, a.drupalizing:visited, a.drupalizing:hover {
+  float: right;
+}
+
+/* RTL overrides */
+#main-area-inside {
+  background-image: url(images/main-area-bg-rtl.png);
+}
