@@ -1,0 +1,242 @@
+/**
+ * Abivia Super Table Plugin.
+ *
+ * @package AbiviaSuperTable
+ * @copyright (C) 2011-2012 by Abivia Inc. All rights reserved.
+ * @license GNU/GPL
+ * @link http://www.abivia.net/
+ */
+
+.supertable-active .supertable-row-head {
+    border-right: 1px solid #7EA5A8;
+    border-left: none;
+}
+
+.supertable-colmode .supertable-col, .supertable-colmode .supertable-col-rowhead {
+    float:right;
+}
+
+.supertable-col-even .supertable-row-even {
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #bdbdbd;
+}
+
+.supertable-col-even.supertable-active .supertable-row-even {
+    border-right: 1px solid #d4d4d4;
+    border-left: 1px solid #c4c4c4;
+}
+
+.supertable-col-even .supertable-row-odd {
+    border-right: 1px solid #e3e3e3;
+    border-left: 1px solid #d4d4d4;
+}
+
+.supertable-col-even.supertable-active .supertable-row-odd {
+    border-right: 1px solid #dbdbdb;
+    border-left: 1px solid #d4d4d4;
+}
+
+.supertable-col-odd .supertable-row-even {
+    border-right: 1px solid #e3e3e3;
+    border-left: 1px solid #d4d4d4;
+}
+
+.supertable-col-odd.supertable-active .supertable-row-even {
+    border-right: 1px solid #dbdbdb;
+    border-left: 1px solid #d4d4d4;
+}
+
+.supertable-col-odd .supertable-row-odd {
+    border-right: 1px solid #f2f2f2;
+    border-left: 1px solid #e3e3e3;
+}
+
+.supertable-col-odd.supertable-active .supertable-row-odd {
+    border-right: 1px solid #fafafa;
+    border-left: 1px solid #ebebeb;
+}
+
+.supertable-colmode .supertable-col-first {
+    border-bottom-right-radius: 8px;
+    -moz-border-radius-bottomright: 8px;
+    border-top-right-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-bottomleft: 0;
+}
+
+.supertable-colmode .supertable-col-first .supertable-row-first {
+    border-top-right-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    border-top-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+}
+
+.supertable-col-first .supertable-row-head.supertable-row-first {
+    border-right: 1px solid #a13032;
+    border-left: none;
+}
+
+.supertable-col-first .supertable-row-last {
+    border-bottom-right-radius: 8px;
+    -moz-border-radius-bottomright: 8px;
+    border-bottom-left-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+}
+
+.supertable-row {
+    clear: right;
+}
+
+.supertable-colmode .supertable-active .supertable-row-head {
+    border-right: 1px solid #7EA5A8;
+    border-left: none;
+}
+
+.supertable-active .supertable-row-head.supertable-row-first {
+    border-right: 1px solid #7EA5A8;
+    border-left: none;
+}
+
+.supertable-colmode .supertable-col-last {
+    border-bottom-left-radius:8px;
+    -moz-border-radius-bottomleft:8px;
+    border-top-left-radius:8px;
+    -moz-border-radius-topleft:8px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
+}
+
+.supertable-col-last .supertable-col-border {
+    border-bottom-left-radius:8px;
+    -moz-border-radius-bottomleft:8px;
+    border-top-left-radius:8px;
+    -moz-border-radius-topleft:8px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
+}
+
+.supertable-col-last .supertable-row-first {
+    border-top-left-radius:8px;
+    -moz-border-radius-topleft:8px;
+    border-top-right-radius: 0;
+    -moz-border-radius-topright: 0;
+}
+
+.supertable-col-last .supertable-row-last {
+    border-bottom-left-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+}
+
+.supertable-col-rowhead .supertable-row-even, .supertable-col-rowhead .supertable-row-odd {
+    border-right: 1px solid #A57B5B;
+    border-left: 1px solid #775941;
+}
+
+.supertable-colmode .supertable-row-head {
+    border-right: 1px solid #a13032;
+    border-left: 0;
+}
+
+/* rowmode classes */
+
+.supertable-rowmode .supertable-cell {
+    float: right;
+}
+
+.supertable-rowmode .supertable-row-first {
+    border-top-right-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    border-top-left-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+}
+
+.supertable-rowmode .supertable-row-first .supertable-col-first {
+    border-top-right-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    border-top-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+}
+
+.supertable-rowmode .supertable-row-first .supertable-col-last {
+    border-top-left-radius:8px;
+    -moz-border-radius-topleft:8px;
+    border-top-right-radius: 0;
+    -moz-border-radius-topright: 0;
+}
+
+.supertable-rowmode .supertable-row-last .supertable-col-first {
+    border-bottom-right-radius: 8px;
+    -moz-border-radius-bottomright: 8px;
+    border-bottom-left-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+}
+
+.supertable-rowmode .supertable-row-last .supertable-col-last {
+    border-bottom-left-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+}
+
+.supertable-rowmode .supertable-row-head .supertable-cell {
+    border-right: 1px solid #a13032;
+    border-left: 0;
+}
+
+.supertable-rowmode .supertable-row-even .supertable-col-rowhead,
+.supertable-rowmode .supertable-row-odd .supertable-col-rowhead {
+    border-right: 1px solid #A57B5B;
+    border-left: 1px solid #775941;
+}
+
+.supertable-rowmode .supertable-row-odd .supertable-col-even {
+    border-right: 1px solid #e3e3e3;
+    border-left: 1px solid #d4d4d4;
+}
+
+.supertable-rowmode .supertable-row-odd .supertable-col-odd {
+    border-right: 1px solid #f2f2f2;
+    border-left: 1px solid #e3e3e3;
+}
+
+.supertable-rowmode .supertable-row-even .supertable-col-odd {
+    border-right: 1px solid #e3e3e3;
+    border-left: 1px solid #d4d4d4;
+}
+
+.supertable-rowmode .supertable-row-even .supertable-col-even {
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #bdbdbd;
+}
+
+.supertable-rowmode .supertable-row-odd.supertable-active .supertable-col-even {
+    border-right: 1px solid #dbdbdb;
+    border-left: 1px solid #d4d4d4;
+}
+
+.supertable-rowmode .supertable-row-even.supertable-active .supertable-col-even {
+    border-right: 1px solid #d4d4d4;
+    border-left: 1px solid #c4c4c4;
+}
+
+.supertable-rowmode .supertable-active .supertable-col-rowhead {
+    border-right: 1px solid #7EA5A8;
+    border-left: none;
+}
+
+.supertable-rowmode .supertable-active .supertable-col-rowhead {
+    border-right: 1px solid #7EA5A8;
+    border-left: none;
+}
+
+
+/* Generated by the RTLer - http://l0uy.com/rtler/ */
