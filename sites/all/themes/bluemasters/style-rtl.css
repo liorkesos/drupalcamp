@@ -32,11 +32,18 @@
 #logo {
   float:right;
   text-align: right;
+  margin: 0 0 0 20px;
+}
+
+#site-details {
+  float:right;
+  text-align: right;
+  margin: 15px 0 0 20px;  
 }
 
 #navigation {
   float:left;
-  margin:10px 40px 0 0;
+  margin: 21px 15px 0 0;
 }
 
 .home-block {

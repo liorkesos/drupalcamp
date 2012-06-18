@@ -30,36 +30,35 @@
 
 	<div id="header" class="clearfix">
 	
-	    <div id="logo"> 
-			<?php
-	        // Prepare header
-	        $site_fields = array();
-	        if ($site_name) {
-	        	$site_fields[] = check_plain($site_name);
-	        }
-	        if ($site_slogan) {
-	        	$site_fields[] = check_plain($site_slogan);
-	        }
-	        $site_title = implode(' ', $site_fields);
-	        if ($site_fields) {
-	        	$site_fields[0] = '<span>'. $site_fields[0] .'</span>';
-	        }
-	        $site_html = implode(' ', $site_fields);
-	        
-	        if ($logo || $site_title) {
-	        	print '<a href="'. check_url($front_page) .'" title="'. $site_title .'">';
-	        if ($logo) {
-	        	print '<img src="'. check_url($logo) .'" alt="'. $site_title .'" id="logo-image" />';
-	        }
-	        print '<div style="display:none">'.$site_html .'</div></a>';
-	        }
-	        ?>
-	    </div> <!--logo-->
-	    
-	    <div id="navigation">
-	    	<?php //if (isset($primary_links)) { ?><?php //print theme('links', $primary_links, array('class' =>'links', 'id' => 'primary-links')) ?><?php //} ?>
-	        <?php print menu_tree($menu_name = 'primary-links'); ?>
-	    </div><!--navigation-->
+    <?php if ($logo): ?>
+    <a id="logo" href="<?php print $front_page; ?>" name="home" title="<?php print t('Home'); ?>" rel="home"><img src="<?php print $base_path . path_to_theme() . '/logo.png'; ?>" alt="<?php print t('Home'); ?>" id="logo-image" /></a>
+    <!-- /logo -->
+    <?php endif; ?>
+
+    <div id="site-details">
+      <?php if ($site_name): ?>
+      <h1 id='site-name'>
+        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
+          <?php print $site_name; ?>
+        </a>
+      </h1>
+      <!-- /site-name -->
+      <?php endif; ?>
+
+      <?php if ($site_slogan): ?>
+      <blockquote id='site-slogan'>
+        <?php print $site_slogan; ?>
+      </blockquote>
+      <!-- /site-slogan -->
+      <?php endif; ?>
+
+    </div>
+    <!-- /site-details -->
+
+    <div id="navigation">
+    	<?php //if (isset($primary_links)) { ?><?php //print theme('links', $primary_links, array('class' =>'links', 'id' => 'primary-links')) ?><?php //} ?>
+        <?php print menu_tree($menu_name = 'primary-links'); ?>
+    </div><!--navigation-->
 	
 	</div><!--header-->
 
