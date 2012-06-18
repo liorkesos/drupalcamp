@@ -3,6 +3,12 @@ description = Theme based on Blue Masters PSD template
 version = VERSION
 core = 6.x
 engine = phptemplate
+
+scripts[] = js/script.js
+stylesheets[all][] = style.css
+stylesheets[all][] = supertable.css
+
+
 regions[right] = Right sidebar
 regions[header] = Header
 regions[banner] = Banner

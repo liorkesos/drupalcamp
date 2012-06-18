@@ -515,7 +515,6 @@ li.comment_add{
     display: none;
     position: absolute;
     bottom: 0;
-    left: 0;
     z-index: 101;
     background: url(images//30w087b.png);
     color: #fff;
@@ -839,3 +838,5 @@ a.drupalizing:link, a.drupalizing:active, a.drupalizing:visited, a.drupalizing:h
 a.drupalizing:link, a.drupalizing:active, a.drupalizing:visited, a.drupalizing:hover {
 	background: url("images/footer-logo-drupalizing.png") no-repeat scroll center top transparent;
 }		
+
+#main-area-inside {  display:block; overflow:hidden;  background-image:url(images/main-area-bg-rtl.png); min-height:1000px;}

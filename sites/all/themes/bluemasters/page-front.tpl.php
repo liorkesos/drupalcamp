@@ -11,11 +11,8 @@
 <?php print $styles ?>
 <?php print $scripts; ?>
 
-<script src="misc/jquery.js" type="text/javascript"></script>
 <script src="<?php print drupal_get_path('theme', 'bluemasters') . '/js/bluemasters.js'?>" type="text/javascript"></script>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.js" type="text/javascript"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/swfobject/2.1/swfobject.js" type="text/javascript"></script>
 
 </head>
 <body>
@@ -78,9 +75,9 @@
 					<a href="?q=node/3"><img src="sites/all/themes/bluemasters/images/slide-image-3.jpg"></a>
 				</div>
 				<div class="descriptions">
-					<div class="desc" style="display: none;">Our Portfolio</div>
-					<div class="desc" style="display: none;">Creation of Beaches</div>
-					<div class="desc" style="display: none;">About iPadMasters</div>
+					<div class="desc" style="display: none;">הרצאות לחברי קהילת דרופל</div>
+					<div class="desc" style="display: none;">מרצים מובילים מהארץ ומחו"ל</div>
+					<div class="desc" style="display: none;">סדנאות מבוא גם למתחילים</div>
 				</div>
 				
 			</div>
