@@ -18,14 +18,6 @@
 
 <div id="page">
 
-<div id="header-top"><!--header-top-->
-    <div id="header-top-inside" class="clearfix">
-        <div id="header-top-inside-left">Subscribe to: <div id="header-top-inside-left-content"><?php print $header; ?> </div></div>
-        <div id="header-top-inside-left-feed"><?php print $feed_icons ?></div>
-        <div id="header-top-inside-right"><?php print $search_box; ?></div>  
-    </div>
-</div><!--/header-top-->
-
 <div id="wrapper">
 
 	<div id="header" class="clearfix">
