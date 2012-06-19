@@ -748,8 +748,49 @@ a.twitter-link, a.twitter-user {
     margin-top: 25px;
 }
 /*
- ** /twitter block */
+ * Event page
+ */
+.node-event .field-field-dates,
+.node-event .product-info {
+  display: none;
+}
+.node-event .hl-price {
+  color: #2595d7;
+  font-weight: bold;
+  font-size: 120%;
+}
+.node-event .add-to-cart {
+  text-align: center;
+}
+.node-event input.form-submit {
+  font-size: 28px;
+  padding: 5px 30px;
+  margin: 15px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+
+  -webkit-box-shadow: 0px 0px 4px 0px #333;
+          box-shadow: 0px 0px 4px 0px #333;
+
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+
  
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+
+  background-color: #2595d7;
+
+  -webkit-transition: all 0.3s ease-out; 
+     -moz-transition: all 0.3s ease-out; 
+       -o-transition: all 0.3s ease-out; 
+          transition: all 0.3s ease-out;
+
+}
+.node-event input.form-submit:hover {
+  background-color: #44A4DC;
+}
+
 /*
  * contact form
  */
