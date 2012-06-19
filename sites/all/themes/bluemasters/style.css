@@ -769,6 +769,7 @@ a.twitter-link, a.twitter-user {
   border: none;
   color: #fff;
   font-weight: bold;
+  cursor: pointer;
 
   -webkit-box-shadow: 0px 0px 4px 0px #333;
           box-shadow: 0px 0px 4px 0px #333;
@@ -794,23 +795,27 @@ a.twitter-link, a.twitter-user {
 /*
  * contact form
  */
-form#contact_form label {
+form#contact-mail-page label {
     font-weight: bold;
+    width: 130px;
+    float: right;
+    margin-left: 20px;
+    text-align: left;
 }
 
-form#commentform input, form#contact_form input[type="text"] {
+form#commentform input, form#contact-mail-page input[type="text"] {
     background: none repeat scroll 0 0 #EEF0F5;
     border: 1px solid #CED1DA;
     font-size: 18px;
     height: 2em;
-    width: 95%;
+    width: 400px;
 }
 
-form#contact_form input[type="text"] {
+/*form#contact-mail-page input[type="text"] {
     width: 43%;
-}
+}*/
 
-form#commentform textarea, form#contact_form textarea {
+form#commentform textarea, form#contact-mail-page textarea {
     background: none repeat scroll 0 0 #EEF0F5;
     border: 1px solid #CED1DA;
     font-family: Verdana;
@@ -820,12 +825,43 @@ form#commentform textarea, form#contact_form textarea {
     width: 290px;
 }
 
-form#contact_form textarea {
-    height: 300px;
+form#contact-mail-page textarea {
+    height: 120px;
     margin-left: 0;
-    width: 100%;
+    width: 400px;
 }
 
+form#contact-mail-page .resizable-textarea {
+    float: right;
+    width: 400px;
+}
+form#contact-mail-page .form-required,
+form#contact-mail-page .grippie {
+  display: none;
+}
+form#contact-mail-page input.form-submit {
+  font-size: 28px;
+  padding: 5px 30px;
+  text-align: center;
+  width: 402px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+
+  background-color: #2595d7;
+
+  -webkit-transition: all 0.3s ease-out; 
+     -moz-transition: all 0.3s ease-out; 
+       -o-transition: all 0.3s ease-out; 
+          transition: all 0.3s ease-out;
+
+}
+form#contact-mail-page input.form-submit:hover {
+  background-color: #44A4DC;
+}
 #map_wrap {
     float: right;
     margin-right: 0;
@@ -837,7 +873,7 @@ p.map {
     margin: 0;
 }
 
-form#commentform input#submit, form#contact_form button {
+form#commentform input#submit, form#contact-mail-page button {
     background: none repeat scroll 0 0 #11719F;
     border: 0 none;
     color: #FFFFFF;
@@ -848,7 +884,7 @@ form#commentform input#submit, form#contact_form button {
     width: 80px;
 }
 
-form#contact_form button {
+form#contact-mail-page button {
     height: 45px;
     margin: 0;
     width: 120px;
