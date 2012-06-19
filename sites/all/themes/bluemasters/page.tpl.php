@@ -14,6 +14,7 @@
 
 <div id="page">
 
+	<div id="citybackground">
 <div id="wrapper">
 
     <div id="header" class="clearfix">
@@ -105,7 +106,7 @@
 <?php print $closure ?>
 
 
+<div>
 </div><!-- /page-->
-
 </body>
 </html>

@@ -901,8 +901,5 @@ a.drupalizing:link, a.drupalizing:active, a.drupalizing:visited, a.drupalizing:h
 }
 
 #citybackground{
-	z-index:1;
-	width:1300px;
-	height:462px;
 background: transparent url(images/background.png) 0px -28px repeat-x;
 }
