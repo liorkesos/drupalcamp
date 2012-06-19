@@ -95,7 +95,7 @@ html[xmlns] .clearfix { display: block; }
 
 #navigation { float:right; width:525px; margin: 19px 0 0 15px;  display:block; overflow: hidden;}
 
-#banner{ border:10px solid #ffffff;  height:320px;}
+#banner{ z-index:10;border:10px solid #ffffff;  height:320px;}
 
 #slide-navigation{
 	width:950px;
@@ -520,7 +520,6 @@ li.comment_add{
     display: none;
     position: absolute;
     bottom: 0;
-    left: 0;
     z-index: 101;
     background: url(images//30w087b.png);
     color: #fff;
@@ -899,4 +898,14 @@ a.drupalizing:link, a.drupalizing:active, a.drupalizing:visited, a.drupalizing:h
 
     -webkit-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
        -moz-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+}
+
+#citybackground{
+	z-index:1;
+	width:1300px;
+	height:462px;
+	background: transparent url(images/background.png) no-repeat;
+	position:absolute;
+	top:-30px;
+	left:30px;
 }

@@ -19,7 +19,6 @@
 <div id="page">
 
 <div id="wrapper">
-
 	<div id="header" class="clearfix">
 	
     <?php if ($logo): ?>
@@ -65,9 +64,9 @@
 					<a href="?q=node/3"><img src="sites/all/themes/bluemasters/images/slide-image-3.jpg"></a>
 				</div>
 				<div class="descriptions">
-					<div class="desc" style="display: none;">Our Portfolio</div>
-					<div class="desc" style="display: none;">Creation of Beaches</div>
-					<div class="desc" style="display: none;">About iPadMasters</div>
+					<div class="desc" style="display: none;">אחרי הקיץ, אחרי החגים כל קהילת דרופל סוף סוף נפגשים</div>
+					<div class="desc" style="display: none;">מרצים מובילים מהארץ ומחו"ל</div>
+					<div class="desc" style="display: none;">סדנאות מבוא גם למתחילים</div>
 				</div>
 				
 			</div>
@@ -82,7 +81,7 @@
 	</div><!--banner-->
 	
 	<div id="slide-navigation"></div>
-
+	<div id="citybackground"></div>
 	<div id="home-blocks-area" class="clearfix">
 		<div id="home-block-1" class="home-block">
 	    	<?php print $home_area_1;?> 		
