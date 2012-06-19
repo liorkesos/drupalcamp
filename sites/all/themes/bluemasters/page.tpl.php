@@ -44,7 +44,6 @@
         <!-- /site-details -->
 
         <div id="navigation">
-            <?php //if (isset($primary_links)) { ?><?php //print theme('links', $primary_links, array('class' =>'links', 'id' => 'primary-links')) ?><?php //} ?>
             <?php print menu_tree($menu_name = 'primary-links'); ?>
         </div><!--navigation-->
     

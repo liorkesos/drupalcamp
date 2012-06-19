@@ -84,4 +84,16 @@ $(document).ready(function() {
 
   linkify($('#navigation > ul > li > a'));
 
+  $('#navigation').each(function() {
+    $(this).find('li.expanded:not(.active-trail)').addClass('hidden').find('ul').hide();
+  });
+
+  $('#navigation li.expanded.hidden').hover(function() {
+      $(this).siblings('li:not(.hidden)').find('ul').fadeOut("slow");
+      $(this).find('ul').fadeIn("slow");
+    }, function() {
+      $(this).siblings('li:not(.hidden)').find('ul').fadeIn("slow");
+      $(this).find('ul').fadeOut("slow");
+  });
+
 });
