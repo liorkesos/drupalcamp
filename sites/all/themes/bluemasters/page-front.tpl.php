@@ -17,7 +17,7 @@
 <body>
 
 <div id="page">
-
+	<div id="citybackground">
 <div id="wrapper">
 	<div id="header" class="clearfix">
 	
@@ -81,7 +81,6 @@
 	</div><!--banner-->
 	
 	<div id="slide-navigation"></div>
-	<div id="citybackground"></div>
 	<div id="home-blocks-area" class="clearfix">
 		<div id="home-block-1" class="home-block">
 	    	<?php print $home_area_1;?> 		
@@ -139,7 +138,7 @@
     
 <?php print $closure ?>
 
-
+</div> <!-- /cityback -->
 </div><!-- /page-->
 
 </body>
