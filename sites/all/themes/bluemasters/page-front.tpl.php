@@ -59,9 +59,9 @@
 		<div class="main_view">
 			<div class="window">
 				<div class="image_reel">
-					<a href="?q=node/1"><img src="sites/all/themes/bluemasters/images/slide-image-1.jpg"></a>
-					<a href="?q=node/2"><img src="sites/all/themes/bluemasters/images/slide-image-2.jpg"></a>
-					<a href="?q=node/3"><img src="sites/all/themes/bluemasters/images/slide-image-3.jpg"></a>
+					<a href="?q=node/6"><img src="sites/all/themes/bluemasters/images/slide-image-1.jpg"></a>
+					<a href="?q=node/6"><img src="sites/all/themes/bluemasters/images/slide-image-2.jpg"></a>
+					<a href="?q=node/6"><img src="sites/all/themes/bluemasters/images/slide-image-3.jpg"></a>
 				</div>
 				<div class="descriptions">
 					<div class="desc" style="display: none;">אחרי הקיץ, אחרי החגים כל קהילת דרופל סוף סוף נפגשים</div>

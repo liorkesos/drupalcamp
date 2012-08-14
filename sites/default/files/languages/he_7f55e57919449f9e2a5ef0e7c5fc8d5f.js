@@ -1,1 +1,0 @@
-Drupal.locale = { 'pluralFormula': function($n) { return Number(($n!=1)); }, 'strings': { "Unspecified error": "שגיאה לא ידועה", "Select all rows in this table": "בחר את כל השורות בטבלה", "Deselect all rows in this table": "בטל בחירת כל השורות בטבלה", "Drag to re-order": "גרור לסידור", "Edit": "עדכן" } };

@@ -1,3 +1,9 @@
+.content {
+	font-size: 16px;
+line-height:150%;
+}
+
+
 #right .block h2 {
   padding:10px 45px 10px 10px;
 }
