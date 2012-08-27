@@ -256,4 +256,16 @@ ini_set('url_rewriter.tags',        '');
 #   'forum'      => 'Discussion board',
 #   '@count min' => '@count minutes',
 # );
-#
+
+/**
+ * Multilingual settings
+ * 
+ * This is a collection of variables that can be set up for each language when i18n enabled.
+ * These are the basic ones for Drupal core, but you can add your own here.
+ */
+$conf['i18n_variables'] = array(
+  'site_name',
+  'site_slogan',
+  'site_footer',
+  'anonymous',
+);
