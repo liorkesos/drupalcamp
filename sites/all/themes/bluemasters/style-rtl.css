@@ -6,6 +6,7 @@ line-height:150%;
 
 #right .block h2 {
   padding:10px 45px 10px 10px;
+  background-position: 96% center;
 }
 
 /*.node .content */
@@ -365,7 +366,15 @@ li.comment_add {
 /*
  * contact form
  */
-
+form#contact-mail-page label {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+    text-align: left;
+}
+form#contact-mail-page .resizable-textarea {
+    float: right;
+}
 form#commentform textarea, form#contact_form textarea {
   margin: 0 10px 10px 0;
 }

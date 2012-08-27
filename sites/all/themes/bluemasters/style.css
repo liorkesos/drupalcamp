@@ -93,7 +93,7 @@ html[xmlns] .clearfix { display: block; }
   color: #fff;
 }
 
-#navigation { float:right; width:525px; margin: 19px 0 0 15px;  display:block; overflow: hidden;}
+#navigation { float:right; margin: 19px 0 0 15px;  display:block; overflow: hidden;}
 
 #banner{ z-index:10;border:10px solid #ffffff;  height:320px;}
 
@@ -218,7 +218,7 @@ html[xmlns] .clearfix { display: block; }
 
 #main-area { background: transparent; clear:both; display:block; overflow:hidden;  background-image:url(images/home-block-box-bg.png); padding: 20px;}
 
-#main-area-inside {  display:block; overflow:hidden;  background-image:url(images/main-area-bg.png); min-height:1000px;}
+#main-area-inside {  display:block; overflow:hidden;  background-image:url(images/main-area-bg.png); min-height:500px;}
 
 #main.inside { float:left; width:600px; padding:20px;font-family:verdana; }
 
@@ -287,14 +287,22 @@ div.links {float:right;}
 #navigation ul li{ margin:0px; padding:0px; text-align:center; list-style-image:none;  margin:0px; padding:0px; text-align:center; list-style-image:none; display:block; float:left;}
 
 #navigation li a { 
-	padding: 5px 15px 0 15px; 
-	text-decoration: none; 
-	display:block; 
-	color:#7A8090; 
-	font-size:160%; 
-	font-size:18px;
-	height:32px; 
-	text-align:center; 
+  padding: 5px 15px 0 15px;
+  text-decoration: none;
+  display:block;
+  color:#7A8090;
+  font-size:160%;
+  font-size:18px;
+  height:32px;
+  text-align:center;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  transition: color 0.3s;
+}
+#navigation li a:hover {
+  color: #fff;
 }
 
 /*#navigation li:hover a { 
@@ -796,12 +804,17 @@ a.twitter-link, a.twitter-user {
  * contact form
  */
 form#contact-mail-page label {
-    font-weight: bold;
-    width: 130px;
-    float: right;
-    margin-left: 20px;
-    text-align: left;
+  font-weight: bold;
+  width: 130px;
+  float: left;
+  margin-right: 20px;
+  text-align: right;
 }
+
+form#contact-mail-page #edit-copy-wrapper {
+  clear: right;
+}
+
 
 form#commentform input, form#contact-mail-page input[type="text"] {
     background: none repeat scroll 0 0 #EEF0F5;
@@ -832,7 +845,7 @@ form#contact-mail-page textarea {
 }
 
 form#contact-mail-page .resizable-textarea {
-    float: right;
+    float: left;
     width: 400px;
 }
 form#contact-mail-page .form-required,
@@ -978,7 +991,11 @@ a.drupalizing:link, a.drupalizing:active, a.drupalizing:visited, a.drupalizing:h
 }
 
 #citybackground{
+<<<<<<< HEAD
+  background: transparent url(images/background.png) 0px -28px repeat-x;
+=======
 background: transparent url(images/background.png) 0px -28px repeat-x;
+>>>>>>> b1263defd88082341f02060ca1c1d6ce8bfe3273
 }
 
 #block-block-3 .linkcontainer{

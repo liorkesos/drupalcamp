@@ -63,26 +63,26 @@ $(document).ready(function() {
   Drupal.sasson.watch('/drupalcamp/sites/all/themes/bluemasters/style.css', true);
   Drupal.sasson.watch('/drupalcamp/sites/all/themes/bluemasters/style-rtl.css', true);
 
-  var supports3DTransforms =  document.body.style['webkitPerspective'] !== undefined || 
-                              document.body.style['MozPerspective'] !== undefined;
+  // var supports3DTransforms =  document.body.style['webkitPerspective'] !== undefined || 
+  //                             document.body.style['MozPerspective'] !== undefined;
 
-  function linkify( selector ) {
-      if( supports3DTransforms ) {
+  // function linkify( selector ) {
+  //     if( supports3DTransforms ) {
           
-          var nodes = selector;
+  //         var nodes = selector;
 
-          for( var i = 0, len = nodes.length; i < len; i++ ) {
-              var node = nodes[i];
+  //         for( var i = 0, len = nodes.length; i < len; i++ ) {
+  //             var node = nodes[i];
 
-              if( !node.className || !node.className.match( /roll/g ) ) {
-                  node.className += ' roll';
-                  node.innerHTML = '<span data-title="'+ node.text +'">' + node.innerHTML + '</span>';
-              }
-          }
-      }
-  }
+  //             if( !node.className || !node.className.match( /roll/g ) ) {
+  //                 node.className += ' roll';
+  //                 node.innerHTML = '<span data-title="'+ node.text +'">' + node.innerHTML + '</span>';
+  //             }
+  //         }
+  //     }
+  // }
 
-  linkify($('#navigation > ul > li > a'));
+  // linkify($('#navigation > ul > li > a'));
 
   $('#navigation').each(function() {
     $(this).find('li.expanded:not(.active-trail)').addClass('hidden').find('ul').hide();
