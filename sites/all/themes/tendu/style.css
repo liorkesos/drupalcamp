@@ -82,7 +82,7 @@ html, body{height:100%;}
  *	 20px = 1.666em
  *   etc...
  */
-body{font-family:Arial, Helvetica, sans-serif;font-size:100%;}/*LTR*/ /*IE*/
+body{font-family:Arial, "Arial Hebrew", Helvetica, sans-serif;font-size:100%;}/*LTR*/ /*IE*/
 #page{font-size:.75em;line-height:1.333em;}
 /* In Firefox (All versions) there is an inconsistant bug with relative font size in tables, this line fixes that. */
 table{font-size:1em}
