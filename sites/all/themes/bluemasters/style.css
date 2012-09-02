@@ -220,7 +220,7 @@ html[xmlns] .clearfix { display: block; }
 
 #main-area-inside {  display:block; overflow:hidden;  background-image:url(images/main-area-bg.png); min-height:500px;}
 
-#main.inside { float:left; width:600px; padding:20px;font-family:verdana; }
+#main.inside { float:left; width:600px; padding:20px; }
 
 #right { float:right; width:267px; padding:0;}
 
