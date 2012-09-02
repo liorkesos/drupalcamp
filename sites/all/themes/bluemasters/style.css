@@ -1028,3 +1028,5 @@ background: transparent url(images/background.png) 0px -28px repeat-x;
 
 }
 
+/* Zohar's mess: */
+.views-field-title a {font-weight: bold; color: #DD3E0B;}
