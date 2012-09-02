@@ -81,6 +81,10 @@ line-height:150%;
   float:left;
 }
 
+#right .block{
+	margin:10px;
+}
+
 /* 
  * Default typography 
  * please DO NOT modify following rules. 
